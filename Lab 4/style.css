@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+   
+
+.TABLE {
+    table-layout: fixed; /* Ячейки фиксированной ширины */
+ }  
+
+    .table-shapka{
+    /* Меняем оси шапки, делая её вертикальной. */
+    flex-direction: column;
+        
+    /* Выравнивание элементов шапки с начала (по левому краю). */
+    align-items: flex-start;
+    position: absolute;
+    width: 100%;
+    background-color: #553f3fa4;
+}
+
+
+.menu{
+    font-size: 20px;
+}
+
+.logo{
+    width: 160px;
+    height: 70px;
+}
+
+.title-text{
+    position: absolute;
+    margin: 50px 0px 20px 150px;
+ 
+
+}
+
+.ramka{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 200px;
+    width: 5px; 
+    height: 5px;
+    border: 2px solid;
+    border-radius: 0 10px 20px;
+    border-color: #d30a0a;
+    background-color: rgba(247, 242, 242, 0.774);
+    width: 19vw;
+    height: 18.5vh;
+}
+
+.title-text{
+    font-size: 20px;
+}
+
+
+.head-text{
+
+    position: absolute;
+    margin-top: -62px;
+    margin-left: -135px;
+    margin-right: 300px;
+    width: 100%;
+    border-color: #d30a0a;
+}
+
+
+.fon-img{
+    width: 140vw;
+    height: 140vh;
+    background: url(Rb67d2097333a54ca12244a7017c897c8.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+   -moz-background-size: cover;
+     -o-background-size: cover;
+        background-size: cover;
+}
+
+.buttons{
+    padding: 35px;
+}
+
+.es-button{
+            
+            mso-style-priority:100;
+            text-decoration:none;
+            -webkit-text-size-adjust:none;
+            -ms-text-size-adjust:none;
+            mso-line-height-rule:exactly;
+            font-size:18px;
+            color:#080707;
+            border-style:solid;
+            border-color:#d30a0a;
+            border-width:10px 25px;
+            display:inline-block;
+            background:#d30a0a none repeat scroll 0% 0%;
+            border-radius:0px;
+            font-weight:normal;
+            font-style:normal;
+            line-height:120%;
+            width:auto;
+            text-align:center;
+            border-radius: 50px;
+}
+.table-down{
+    
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 200px;
+    margin-right: 25px;
+}
+
+.ramka-down-one{
+    position: absolute;
+    width: 5px; 
+    height: 5px;
+    border: 2px solid;
+    border-radius: 0 10px 20px;
+    border-color: #d30a0a;
+    background-color: rgba(247, 242, 242, 0.774);
+    margin-top: 700px;
+    margin-left: 200px;
+    width: 20vw;
+    height: 21.5vh;
+}
+
+.ramka-down-two{
+    position: absolute;
+    width: 5px; 
+    height: 5px;
+    border: 2px solid;
+    border-radius: 0 10px 20px;
+    border-color: #d30a0a;
+    background-color: rgba(247, 242, 242, 0.774);
+    margin-top: 700px;
+    margin-left: 522px;
+    width: 20vw;
+    height: 21.5vh;
+}
+
+.ramka-down-three{
+    position: absolute;
+    width: 5px; 
+    height: 5px;
+    border: 2px solid;
+    border-radius: 0 10px 20px;
+    border-color: #d30a0a;
+    background-color: rgba(247, 242, 242, 0.774);
+    margin-top: 700px;
+    margin-left: 845px;
+    width: 20vw;
+    height: 21.5vh;
+}
+
+.ramka-down-four{
+    position: absolute;
+    width: 5px; 
+    height: 5px;
+    border: 2px solid;
+    border-radius: 0 10px 20px;
+    border-color: #d30a0a;
+    background-color: rgba(247, 242, 242, 0.774);
+    margin-top: 700px;
+    margin-left: 1168px;
+    width: 20vw;
+    height: 21.5vh;
+
+}
+
+.leftimg{
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+    width: 4vw;
+    height: 4.5vh;
+}
+
+.td, p{
+    font-size: 15px;    
+    margin: 0px 0px 5px 0px;
+}
